@@ -10,7 +10,10 @@ const options = {
 
 fetch("http://localhost:3000/recipes", options)
   .then((response) => response.json())
-  .then((response) => console.log(response))
+    .then((data) => {
+        console.log(data);
+        displayRecipes(data);
+  })
   .catch((err) => console.error(err));
 
 function displayRecipes(recipes) {
@@ -33,7 +36,7 @@ function displayRecipes(recipes) {
     image.alt = recipe.name;
 
     const ingredientsList = document.createElement("ul");
-    recipe.ingredients.forEach((ingredients) => {
+    recipe.ingredients.forEach((ingredient) => {
       const li = document.createElement("li");
       li.textContent = ingredient;
       ingredientsList.appendChild(li);
