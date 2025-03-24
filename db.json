@@ -15,7 +15,8 @@
         "Add ice cubes.",
         "Top with sparkling water and stir.",
         "Garnish with a lime slice and mint sprig."
-      ]
+      ],
+      "id": "c6ff"
     },
     {
       "name": "Strawberry Lemonade",
@@ -32,7 +33,8 @@
         "Strain the mixture into a pitcher.",
         "Add water and stir well.",
         "Serve over ice and garnish with a strawberry."
-      ]
+      ],
+      "id": "1c48"
     },
     {
       "name": "Blue Lagoon",
@@ -48,7 +50,8 @@
         "Add blue curaçao and lemon juice.",
         "Top with lemon-lime soda and stir gently.",
         "Garnish with a lemon slice."
-      ]
+      ],
+      "id": "97fd"
     },
     {
       "name": "Pina Colada",
@@ -63,7 +66,8 @@
         "Blend pineapple juice, coconut milk, and crushed ice until smooth.",
         "Pour into a glass.",
         "Garnish with a pineapple slice."
-      ]
+      ],
+      "id": "fcde"
     },
     {
       "name": "Mango Tango",
@@ -79,7 +83,8 @@
         "Add mango puree and orange juice.",
         "Top with soda water and stir gently.",
         "Garnish with a mango slice."
-      ]
+      ],
+      "id": "8d0c"
     },
     {
       "name": "Cucumber Cooler",
@@ -96,7 +101,8 @@
         "Strain the mixture into a glass.",
         "Add ice cubes and top with sparkling water.",
         "Garnish with a cucumber slice."
-      ]
+      ],
+      "id": "9fb4"
     },
     {
       "name": "Berry Blast",
@@ -113,7 +119,8 @@
         "Strain the mixture into a pitcher.",
         "Add water and stir well.",
         "Serve over ice and garnish with berries."
-      ]
+      ],
+      "id": "d43b"
     },
     {
       "name": "Tropical Sunrise",
@@ -129,7 +136,8 @@
         "Add orange juice and pineapple juice.",
         "Slowly pour grenadine over the back of a spoon to create a layered effect.",
         "Garnish with an orange slice."
-      ]
+      ],
+      "id": "db10"
     },
     {
       "name": "Lavendar Lemonade",
@@ -144,7 +152,8 @@
         "Mix lavender syrup, lemon juice, and water in a pitcher.",
         "Stir well.",
         "Serve over ice and garnish with lavender sprigs."
-      ]
+      ],
+      "id": "70d5"
     },
     {
       "name": "Passion Fruit Punch",
@@ -160,7 +169,8 @@
         "Add passion fruit juice and orange juice.",
         "Top with soda water and stir gently.",
         "Garnish with a passion fruit slice."
-      ]
+      ],
+      "id": "19f8"
     },
     {
       "name": "Watermelon Refreshner",
@@ -177,7 +187,8 @@
         "Strain the mixture into a glass.",
         "Add ice cubes and top with sparkling water.",
         "Garnish with a watermelon slice."
-      ]
+      ],
+      "id": "e93d"
     },
     {
       "name": "Ginger Fizz",
@@ -193,7 +204,11 @@
         "Add ginger syrup and lemon juice.",
         "Top with soda water and stir gently.",
         "Garnish with a lemon slice."
-      ]
+      ],
+      "id": "671d"
+    },
+    {
+      "id": "84cc"
     }
   ]
 }
