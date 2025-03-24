@@ -1,0 +1,199 @@
+{
+  "recipes": [
+    {
+      "name": "Virgin Mojitos",
+      "image": "https://imgs.search.brave.com/xeccUAopU0jzny1ZQquXJRx56x38ICtNC90kxrUjWvg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iZWFt/aW5nYmFrZXIuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzAxL3Zpcmdpbi1t/b2ppdG8tcmVjaXBl/LW1vaml0by1tb2Nr/dGFpbC0xLmpwZw",
+      "ingredients": [
+        "1 lime",
+        "10 mint leaves",
+        "2 tsp sugar",
+        "Sparkling water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Muddle lime, mint, and sugar in a glass.",
+        "Add ice cubes.",
+        "Top with sparkling water and stir.",
+        "Garnish with a lime slice and mint sprig."
+      ]
+    },
+    {
+      "name": "Strawberry Lemonade",
+      "image": "https://imgs.search.brave.com/3L_q0ZtmkVej-nfT1Iu5mUhRFpESRVBM2lax_NOfTAY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2VyaW91c2VhdHMu/Y29tL3RobWIvdzhN/cmFVTEV1N0hvOV9V/Z0Z6NTdYX2RsaDBr/PS8xNTAweDAvZmls/dGVyczpub191cHNj/YWxlKCk6bWF4X2J5/dGVzKDE1MDAwMCk6/c3RyaXBfaWNjKCkv/MjAyMzA3MDUtU0VB/LVN0cmF3YmVycnlM/ZW1vbmFkZS1BbWFu/ZGFTdWFyZXpoZXJv/My05MjQyYWZjODAz/M2I0ZGE3YjkyYzBh/MjI3ZGM5YzRhYi5q/cGc",
+      "ingredients": [
+        "1 cup strawberries",
+        "1/2 cup lemon juice",
+        "3 tbsp sugar",
+        "2 cups water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Blend strawberries, lemon juice, and sugar.",
+        "Strain the mixture into a pitcher.",
+        "Add water and stir well.",
+        "Serve over ice and garnish with a strawberry."
+      ]
+    },
+    {
+      "name": "Blue Lagoon",
+      "image": "https://imgs.search.brave.com/csFX7Uq9-jP3UQcYowUHpfHJoRInZUSg5wjxI0cxcvk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y3Vwb2Z6ZXN0LmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wMy9CbHVlLUxh/Z29vbi1Nb2NrdGFp/bC1Ud28tRHJpbmtz/LXdpdGgtU3RyYXdz/LTItV2ViLmpwZw",
+      "ingredients": [
+        "1 oz blue curaçao",
+        "1 oz lemon juice",
+        "4 oz lemon-lime soda",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Fill a glass with ice cubes.",
+        "Add blue curaçao and lemon juice.",
+        "Top with lemon-lime soda and stir gently.",
+        "Garnish with a lemon slice."
+      ]
+    },
+    {
+      "name": "Pina Colada",
+      "image": "https://imgs.search.brave.com/Vk2_kRUj2ydODaTWKf-doUJ0RgZUglceqUm7tFf3WZ8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/Mjg1NjE3L3Bob3Rv/L3BpbmEtY29sYWRh/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz05NU5hUkVBMV9D/LTdaN2E2cVVXRWZ0/OGhEdHhKWFVRazZS/alI3R0JVeTNnPQ",
+      "ingredients": [
+        "1 cup pineapple juice",
+        "1/2 cup coconut milk",
+        "1/2 cup crushed ice",
+        "Pineapple slice for garnish"
+      ],
+      "instructions": [
+        "Blend pineapple juice, coconut milk, and crushed ice until smooth.",
+        "Pour into a glass.",
+        "Garnish with a pineapple slice."
+      ]
+    },
+    {
+      "name": "Mango Tango",
+      "image": "https://imgs.search.brave.com/jyKLFpKm2glHwZymyIVIt036r83V5sBqOKKpwGUh9BE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS81/ZmFlMTYyZWZlMGI4/MDcxMDQ2MGJiMDEv/NjAwOGQ1ODc4OTg4/M2YzZmI1NDAyZGMw/X01hbmdvLVRhbmdv/LTFAMnguanBn",
+      "ingredients": [
+        "1 cup mango puree",
+        "1/2 cup orange juice",
+        "1/2 cup soda water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Fill a glass with ice cubes.",
+        "Add mango puree and orange juice.",
+        "Top with soda water and stir gently.",
+        "Garnish with a mango slice."
+      ]
+    },
+    {
+      "name": "Cucumber Cooler",
+      "image": "https://imgs.search.brave.com/_CYc6CDjhDpRCoaGY-Q_3MK2rzDSnXROPh1o7nreuRI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzVl/NzBmYzM4ODM2NTFl/NzIyOWZlZmQ4Ny8x/NjMxNzQ1NzI1Mzk4/LURGU1paTlJQUTc0/SVFJUjM5SVJPL3Bv/cHBpZXMtYW5kLXBy/b3NlY2NvLWN1Y3Vt/YmVyLWdpbi1jb2Nr/dGFpbC1yZWNpcGUt/NC5qcGc",
+      "ingredients": [
+        "1 cucumber",
+        "1/2 lime",
+        "1 tsp sugar",
+        "Sparkling water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Blend cucumber, lime, and sugar.",
+        "Strain the mixture into a glass.",
+        "Add ice cubes and top with sparkling water.",
+        "Garnish with a cucumber slice."
+      ]
+    },
+    {
+      "name": "Berry Blast",
+      "image": "https://imgs.search.brave.com/0Vt2cpN_USiHgHxpV3x4hkOp8G3d0rPZSX0odwkrGxE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lbXBp/cmVudXRyaXRpb25s/aS5jb20vY2RuL3No/b3AvcHJvZHVjdHMv/U21vdGhpZS1CZXJy/eUJsYXN0XzFfMTIw/MHguanBnP3Y9MTU4/NjU0NDM4OQ",
+      "ingredients": [
+        "1 cup mixed berries",
+        "1/2 cup lemon juice",
+        "3 tbsp sugar",
+        "2 cups water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Blend mixed berries, lemon juice, and sugar.",
+        "Strain the mixture into a pitcher.",
+        "Add water and stir well.",
+        "Serve over ice and garnish with berries."
+      ]
+    },
+    {
+      "name": "Tropical Sunrise",
+      "image": "https://imgs.search.brave.com/DYNbPN0eeuEXXnskZ3oqy02LrCUsCj1xg-9de45513A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LnN3/ZWV0dGVhYW5kdGh5/bWUuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDI0LzA3L3Ry/b3BpY2FsLW1vY2t0/YWlsLTQ1LmpwZz9y/ZXNpemU9MTIwMCwx/ODAwJnNzbD0x",
+      "ingredients": [
+        "1/2 cup orange juice",
+        "1/4 cup grenadine",
+        "1/4 cup pineapple juice",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Fill a glass with ice cubes.",
+        "Add orange juice and pineapple juice.",
+        "Slowly pour grenadine over the back of a spoon to create a layered effect.",
+        "Garnish with an orange slice."
+      ]
+    },
+    {
+      "name": "Lavendar Lemonade",
+      "image": "https://imgs.search.brave.com/_rBhO6gPOAtPaJXSpNfcRo-tXuWM3WOwIC2od5BnRAw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2VsbHBsYXRlZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTUvMDUvRnJlc2gt/TGF2ZW5kZXItTGVt/b25hZGUuanBn",
+      "ingredients": [
+        "1/2 cup lavender syrup",
+        "1/2 cup lemon juice",
+        "2 cups water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Mix lavender syrup, lemon juice, and water in a pitcher.",
+        "Stir well.",
+        "Serve over ice and garnish with lavender sprigs."
+      ]
+    },
+    {
+      "name": "Passion Fruit Punch",
+      "image": "https://imgs.search.brave.com/824O0ot7ra76F7WICUEZBCe-v9mj26fMlHbZa7Bx5iE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwMS5ueXQuY29t/L2ltYWdlcy8yMDE4/LzExLzEzL2Rpbmlu/Zy9ycy10aGFua3Nn/aXZpbmctcHVuY2gv/cnMtdGhhbmtzZ2l2/aW5nLXB1bmNoLW1l/ZGl1bVRocmVlQnlU/d280NDAuanBnP3F1/YWxpdHk9NzUmYXV0/bz13ZWJw",
+      "ingredients": [
+        "1 cup passion fruit juice",
+        "1/2 cup orange juice",
+        "1/2 cup soda water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Fill a glass with ice cubes.",
+        "Add passion fruit juice and orange juice.",
+        "Top with soda water and stir gently.",
+        "Garnish with a passion fruit slice."
+      ]
+    },
+    {
+      "name": "Watermelon Refreshner",
+      "image": "https://imgs.search.brave.com/0TCMvqskgKshqGl3On1qeyS-fNm0tpnEIUn_3HOIgNQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LmFs/aXNvbnNhbGxzcGlj/ZS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDcvUG91/cmluZy1SZWZyZXNo/ZXIuanBnP3Jlc2l6/ZT01MDAsNzAz",
+      "ingredients": [
+        "2 cups watermelon chunks",
+        "1/2 lime",
+        "1 tsp sugar",
+        "Sparkling water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Blend watermelon, lime, and sugar.",
+        "Strain the mixture into a glass.",
+        "Add ice cubes and top with sparkling water.",
+        "Garnish with a watermelon slice."
+      ]
+    },
+    {
+      "name": "Ginger Fizz",
+      "image": "https://imgs.search.brave.com/C3bTR2nQdt_NL9C0MqgsnyecsDon6Gxi1kZYz5yDTnE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW1tZWRpYXRl/LmNvLnVrL3Byb2R1/Y3Rpb24vdm9sYXRp/bGUvc2l0ZXMvMzAv/MjAyMC8wOC9yZWNp/cGUtaW1hZ2UtbGVn/YWN5LWlkLTQ3MTEy/XzEwLTg4NGJjZDIu/anBnP3F1YWxpdHk9/OTAmcmVzaXplPTQ0/MCw0MDA",
+      "ingredients": [
+        "1/2 cup ginger syrup",
+        "1/2 cup lemon juice",
+        "2 cups soda water",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Fill a glass with ice cubes.",
+        "Add ginger syrup and lemon juice.",
+        "Top with soda water and stir gently.",
+        "Garnish with a lemon slice."
+      ]
+    }
+  ]
+}
