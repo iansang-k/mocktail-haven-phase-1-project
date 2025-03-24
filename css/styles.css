@@ -1,18 +1,27 @@
 #title {
-    font-family: 'Times New Roman', Times, serif;
-    color: wheat;
-    text-align: center;
-    font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  color: wheat;
+  text-align: center;
+  font-size: xx-large;
 }
 header {
-    background-color: #750505;
-    margin: 0%;
-    padding: 0%;
-    border-radius: 0%;
+  background-color: #750505;
+  margin: 0%;
+  padding: 0%;
+  border-radius: 0%;
 }
 #catchy-phrase {
+  font-family: "Times New Roman", Times, serif;
+  color: wheat;
+  text-align: center;
+  font-size: x-large;
+}
+
+body {
     font-family: 'Times New Roman', Times, serif;
-    color: wheat;
-    text-align: center;
-    font-size: x-large;
+}
+#recipe-container {
+    max-width: 350px;
+    margin: 0 auto;
+    display: grid;
 }
