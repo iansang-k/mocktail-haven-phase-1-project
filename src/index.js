@@ -1,5 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetchRecipes();
+  fetch("http://localhost:3000/recipes", options)
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      displayRecipes(data);
+    })
+    .catch((err) => console.error(err));
 });
 const options = {
   method: "GET",
@@ -11,14 +17,6 @@ const options = {
   },
 };
 
-fetch("http://localhost:3000/recipes", options)
-  .then((response) => response.json())
-  .then((data) => {
-    console.log(data);
-    displayRecipes(data);
-  })
-  .catch((err) => console.error(err));
-
 function displayRecipes(recipes) {
   const container = document.getElementById("recipe-container");
 
@@ -26,18 +24,39 @@ function displayRecipes(recipes) {
   container.innerHTML = "";
 
   recipes.forEach((recipe) => {
-    //for each recipe create a new div element
-    const recipeElement = document.createElement("div");
-    recipeElement.className = "recipe";
-    recipeElement.innerHTML = `
-        <h3>${recipe.name}</h3>
-        <img src="${recipe.image}" alt="${recipe.name}" />
-        <h4>Ingredients:</h4>
-        <ul>${recipe.ingredients.map((ing) => `<li>${ing}</li>`).join("")}</ul>
-      <h4>Instructions:</h4>
-      <ol>${recipe.instructions
-        .map((step) => `<li>${step}</li>`)
-            .join("")}</ol>`;
-      container.appendChild(recipeElement);
+    // 1. Create parent div for each recipe
+    const recipeDiv = document.createElement("div");
+    recipeDiv.className = "recipe";
+
+    // 2. Add recipe name (h2)
+    const name = document.createElement("h2");
+    name.textContent = recipe.name;
+    recipeDiv.appendChild(name);
+
+    // 3. Add image (img)
+    const img = document.createElement("img");
+    img.src = recipe.image;
+    recipeDiv.appendChild(img);
+
+    // 4. Add ingredients list (ul > li)
+    const ingredientsList = document.createElement("ul");
+    recipe.ingredients.forEach((ingredient) => {
+      const li = document.createElement("li");
+      li.textContent = ingredient;
+      ingredientsList.appendChild(li);
+    });
+    recipeDiv.appendChild(ingredientsList);
+
+    // 5. Add instructions list (ol > li)
+    const instructionsList = document.createElement("ol");
+    recipe.instructions.forEach((instructions) => {
+      const li = document.createElement("li");
+      li.textContent = instructions;
+      instructionsList.appendChild(li);
+    });
+    recipeDiv.appendChild(instructionsList);
+
+    // 6. Append the recipe to the container
+    container.appendChild(recipeDiv);
   });
 }
