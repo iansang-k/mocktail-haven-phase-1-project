@@ -18,10 +18,18 @@ header {
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #750505;
+  color: wheat;
+  text-align: center;
 }
 #recipe-container {
-    max-width: 350px;
-    margin: 0 auto;
-    display: grid;
+  max-width: 350px;
+  margin: 0 auto;
+  display: contents;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
 }
