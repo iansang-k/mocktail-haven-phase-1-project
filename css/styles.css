@@ -12,10 +12,9 @@ body {
 }
 header {
   background-color: #750505;
-  padding: 1 rem;
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 5px 0;
 }
 #title {
   font-family: "Times New Roman", Times, serif;
@@ -55,14 +54,53 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers content horizontally */
+  align-items: center;
 }
 
 img {
   height: 200px;
-  width: 200px; /* Fixed dimensions */
-  object-fit: cover; /* Prevents distortion */
+  width: 200px;
+  object-fit: cover;
   border-radius: 10px;
-  margin: 0 auto; /* Centers the image */
+  margin: 0 auto;
 }
 
+.search-container {
+  background-color: wheat;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#search-input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  background-color: wheat;
+  color: #750505;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+#search-input::placeholder {
+  color: #750505;
+  opacity: 0.8;
+}
+
+#search-button {
+  padding: 10px 25px;
+  background-color: wheat;
+  color: #750505;
+  border: none;
+  border-radius: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#search-button:hover {
+  background-color: #e6d5b8;
+  transform: translateY(-2px);
+}
