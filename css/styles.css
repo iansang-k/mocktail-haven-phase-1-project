@@ -1,3 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #750505;
+  color: wheat;
+  min-height: 100vh; 
+}
 #title {
   font-family: "Times New Roman", Times, serif;
   color: wheat;
@@ -17,19 +28,21 @@ header {
   font-size: x-large;
 }
 
-body {
-  font-family: "Times New Roman", Times, serif;
-  background-color: #750505;
-  color: wheat;
-  text-align: center;
+main {
+    background-color: #750505;
+    color: wheat;
+    margin: 0%;
+    padding: 0%; 
+    display: flexbox;
 }
 #recipe-container {
   max-width: 350px;
   margin: 0 auto;
   display: contents;
+  background-color: #750505;
 }
 img {
-    height: 200px;
-    width: 200px;
-    border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
 }

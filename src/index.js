@@ -1,7 +1,12 @@
+const allRecipes = [];
+let searchInput;
+
 document.addEventListener("DOMContentLoaded", function () {
-  
+  const searchButton = document.getElementById("search-button");
+  searchInput = document.getElementById("search-input");
+
   //Fetching recipes from db.json
-    const options = {
+  const options = {
     method: "GET",
     headers: {
       Accept: "*/*",
@@ -14,10 +19,35 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
+      allRecipes.push(...data);
       displayRecipes(data);
     })
     .catch((err) => console.error(err));
+
+  //Adding an event listener for the search button click event
+  searchButton.addEventListener("click", search);
 });
+
+//Search function
+function search() {
+  const searchValue = searchInput.value.toLowerCase().trim();
+
+  if (searchValue === "") {
+    //If search is empty, display all recipes
+    displayRecipes(allRecipes);
+    return;
+  }
+
+  //Filter recipes based on search value
+  const filteredRecipes = allRecipes.filter(
+    (recipe) =>
+      recipe.name.toLowerCase().includes(searchValue) ||
+      recipe.ingredients.some((ingredients) =>
+        ingredients.toLowerCase().includes(searchValue)
+      )
+  );
+  displayRecipes(filteredRecipes);
+}
 
 function displayRecipes(recipes) {
   const container = document.getElementById("recipe-container");
