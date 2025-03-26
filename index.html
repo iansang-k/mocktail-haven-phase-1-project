@@ -23,6 +23,16 @@
         <button id="search-button">Search</button>
       </div>
       <div id="recipe-container"></div>
+      <div class="add-recipe-form">
+        <h2>Add your mocktail recipe</h2>
+        <form id="recipe-form">
+            <input type="text" id="recipe-name" placeholder="Mocktail Name" required>
+           <input type="text" id="recipe-image" placeholder="Image URL" required>
+           <textarea id="recipe-ingredients" placeholder="Ingredients" required></textarea> 
+           <textarea id="recipe-instructions" placeholder="Instructions" required></textarea>
+           <button type="submit">Add Recipe</button>
+        </form>
+      </div>
     </main>
     <footer></footer>
     <script src="./src/index.js"></script>

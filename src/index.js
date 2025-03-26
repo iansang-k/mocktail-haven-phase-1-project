@@ -4,6 +4,47 @@ let searchInput;
 document.addEventListener("DOMContentLoaded", function () {
   const searchButton = document.getElementById("search-button");
   searchInput = document.getElementById("search-input");
+  const recipeForm = document.getElementById("recipe-form");
+
+  recipeForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const newRecipe = {
+      name: document.getElementById("recipe-name").value,
+      image: document.getElementById("recipe-image").value,
+      ingredients: document
+        .getElementById("recipe-ingredients")
+        .value.split(",")
+        .map((item) => item.trim()),
+      instructions: document
+        .getElementById("recipe-instructions")
+        .value.split(",")
+        .map((item) => item.trim()),
+    };
+    // adding new recipe to local array
+    allRecipes.push(newRecipe);
+
+    //use POST to send to backend
+    const options = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "User-Agent": "EchoapiRuntime/1.1.0",
+        Connection: "keep-alive",
+      },
+      body: JSON.stringify(newRecipe),
+    };
+
+    fetch("http://localhost:3000/recipes", options)
+      .then((response) => response.json())
+      .then((data) => {
+        recipeForm.reset();
+        displayRecipes(allRecipes);
+      })
+      .catch((err) => console.error(err));
+  });
 
   //Fetching recipes from db.json
   const options = {
