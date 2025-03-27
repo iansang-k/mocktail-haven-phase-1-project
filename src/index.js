@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
         .getElementById("recipe-instructions")
         .value.split(",")
         .map((item) => item.trim()),
+      likes: 0,
+      liked: false,
     };
     // adding new recipe to local array
     allRecipes.push(newRecipe);
@@ -129,7 +131,51 @@ function displayRecipes(recipes) {
     });
     recipeDiv.appendChild(instructionsList);
 
-    // 6. Append the recipe to the container
+    //6. Add like button
+    const likeButton = document.createElement("button");
+    likeButton.type = "button";
+    likeButton.className = `like-button ${recipe.liked ? "liked" : ""}`;
+    likeButton.dataset.recipeId = recipe.id;
+    likeButton.innerHTML = recipe.liked ? `💛 Liked` : `🤍 Like`;
+    likeButton.addEventListener("click", (e) => {
+      console.log("Like button clicked");
+      e.stopImmediatePropagation();
+      likeRecipe(recipe);
+      return false;
+    });
+    recipeDiv.appendChild(likeButton);
+
+    // 7. Append the recipe to the container
     container.appendChild(recipeDiv);
   });
+}
+
+function likeRecipe(recipe) {
+  recipe.liked = !recipe.liked;
+
+  const options = {
+    method: "PATCH",
+    headers: {
+      Accept: "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "User-Agent": "EchoapiRuntime/1.1.0",
+      Connection: "keep-alive",
+    },
+    body: JSON.stringify({
+      liked: recipe.liked,
+    }),
+  };
+
+  fetch(`http://localhost:3000/recipes/${recipe.id}`, options)
+    .then((response) => response.json())
+    .then((updatedRecipe) => {
+      const likeButtons = document.querySelectorAll(".like-button");
+      likeButtons.forEach((button) => {
+        if (button.dataset.recipeId === recipe.id.toString()) {
+          button.innerHTML = updatedRecipe.liked ? "💛 Liked" : "🤍 Like";
+          button.classList.toggle("liked", updatedRecipe.liked);
+        }
+      });
+    })
+    .catch((err) => console.error(err));
 }

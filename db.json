@@ -16,7 +16,9 @@
         "Top with sparkling water and stir.",
         "Garnish with a lime slice and mint sprig."
       ],
-      "id": "c6ff"
+      "id": "c6ff",
+      "liked": false,
+      "like": false
     },
     {
       "name": "Strawberry Lemonade",
@@ -34,7 +36,8 @@
         "Add water and stir well.",
         "Serve over ice and garnish with a strawberry."
       ],
-      "id": "1c48"
+      "id": "1c48",
+      "liked": false
     },
     {
       "name": "Blue Lagoon",
@@ -51,7 +54,8 @@
         "Top with lemon-lime soda and stir gently.",
         "Garnish with a lemon slice."
       ],
-      "id": "97fd"
+      "id": "97fd",
+      "liked": false
     },
     {
       "name": "Pina Colada",
@@ -67,7 +71,8 @@
         "Pour into a glass.",
         "Garnish with a pineapple slice."
       ],
-      "id": "fcde"
+      "id": "fcde",
+      "liked": true
     },
     {
       "name": "Mango Tango",
@@ -84,7 +89,8 @@
         "Top with soda water and stir gently.",
         "Garnish with a mango slice."
       ],
-      "id": "8d0c"
+      "id": "8d0c",
+      "liked": false
     },
     {
       "name": "Cucumber Cooler",
@@ -102,7 +108,8 @@
         "Add ice cubes and top with sparkling water.",
         "Garnish with a cucumber slice."
       ],
-      "id": "9fb4"
+      "id": "9fb4",
+      "liked": false
     },
     {
       "name": "Berry Blast",
@@ -120,7 +127,8 @@
         "Add water and stir well.",
         "Serve over ice and garnish with berries."
       ],
-      "id": "d43b"
+      "id": "d43b",
+      "liked": false
     },
     {
       "name": "Tropical Sunrise",
@@ -137,7 +145,8 @@
         "Slowly pour grenadine over the back of a spoon to create a layered effect.",
         "Garnish with an orange slice."
       ],
-      "id": "db10"
+      "id": "db10",
+      "liked": false
     },
     {
       "name": "Lavendar Lemonade",
@@ -153,7 +162,8 @@
         "Stir well.",
         "Serve over ice and garnish with lavender sprigs."
       ],
-      "id": "70d5"
+      "id": "70d5",
+      "liked": false
     },
     {
       "name": "Passion Fruit Punch",
@@ -170,7 +180,8 @@
         "Top with soda water and stir gently.",
         "Garnish with a passion fruit slice."
       ],
-      "id": "19f8"
+      "id": "19f8",
+      "liked": false
     },
     {
       "name": "Watermelon Refreshner",
@@ -188,7 +199,8 @@
         "Add ice cubes and top with sparkling water.",
         "Garnish with a watermelon slice."
       ],
-      "id": "e93d"
+      "id": "e93d",
+      "liked": false
     },
     {
       "name": "Ginger Fizz",
@@ -205,7 +217,8 @@
         "Top with soda water and stir gently.",
         "Garnish with a lemon slice."
       ],
-      "id": "671d"
+      "id": "671d",
+      "liked": false
     },
     {
       "name": "Sunset Sangria",
@@ -229,7 +242,8 @@
         "Fill the glass with ice, add orange and lime slices",
         "Garnish with mint leaves and skewer over left berries"
       ],
-      "id": "4076"
+      "id": "4076",
+      "liked": false
     },
     {
       "name": "Berry Lavender Fizz",
@@ -252,7 +266,8 @@
         "Garnish with lavender sprig and lemon twist",
         "Serve with a stirrer for mixing before drinking"
       ],
-      "id": "a18f"
+      "id": "a18f",
+      "liked": false
     },
     {
       "id": "edd7",
@@ -266,7 +281,8 @@
         "gently muddle 3-4 cucumber slices with lime juice and honey.\n2. Add ice and shake (or stir) until chilled.\n3. Pour into a glass",
         "top with sparkling water",
         "and stir.\n4.  Add remaining cucumber slices and mint."
-      ]
+      ],
+      "liked": false
     }
   ]
 }

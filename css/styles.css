@@ -140,3 +140,10 @@ img {
     cursor: pointer;
     font-size: 15px;
 }
+
+.like-button {
+  color: wheat;
+  display: contents;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
