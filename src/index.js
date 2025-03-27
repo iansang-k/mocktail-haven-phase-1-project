@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         .getElementById("recipe-instructions")
         .value.split(",")
         .map((item) => item.trim()),
-      likes: 0,
       liked: false,
     };
     // adding new recipe to local array
@@ -138,10 +137,8 @@ function displayRecipes(recipes) {
     likeButton.dataset.recipeId = recipe.id;
     likeButton.innerHTML = recipe.liked ? `💛 Liked` : `🤍 Like`;
     likeButton.addEventListener("click", (e) => {
-      console.log("Like button clicked");
-      e.stopImmediatePropagation();
+      e.preventDefault();
       likeRecipe(recipe);
-      return false;
     });
     recipeDiv.appendChild(likeButton);
 

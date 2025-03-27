@@ -72,7 +72,7 @@
         "Garnish with a pineapple slice."
       ],
       "id": "fcde",
-      "liked": true
+      "liked": false
     },
     {
       "name": "Mango Tango",
@@ -90,7 +90,7 @@
         "Garnish with a mango slice."
       ],
       "id": "8d0c",
-      "liked": false
+      "liked": true
     },
     {
       "name": "Cucumber Cooler",
@@ -181,7 +181,7 @@
         "Garnish with a passion fruit slice."
       ],
       "id": "19f8",
-      "liked": false
+      "liked": true
     },
     {
       "name": "Watermelon Refreshner",
