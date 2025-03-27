@@ -22,15 +22,40 @@
         <input type="text" id="search-input" placeholder="Search recipes..." />
         <button id="search-button">Search</button>
       </div>
-      <div id="recipe-container"></div>
+      <div id="recipe-container">
+        <div class="recipe">
+          <h2 class="recipe-name"></h2>
+          <img class="recipe-image" src="" alt="" />
+          <ul class="recipe-ingredients"></ul>
+          <ol class="recipe-instructions"></ol>
+        </div>
+      </div>
       <div class="add-recipe-form">
         <h2>Add your mocktail recipe</h2>
         <form id="recipe-form">
-            <input type="text" id="recipe-name" placeholder="Mocktail Name" required>
-           <input type="text" id="recipe-image" placeholder="Image URL" required>
-           <textarea id="recipe-ingredients" placeholder="Ingredients" required></textarea> 
-           <textarea id="recipe-instructions" placeholder="Instructions" required></textarea>
-           <button type="submit">Add Recipe</button>
+          <input
+            type="text"
+            id="recipe-name"
+            placeholder="Mocktail Name"
+            required
+          />
+          <input
+            type="text"
+            id="recipe-image"
+            placeholder="Image URL"
+            required
+          />
+          <textarea
+            id="recipe-ingredients"
+            placeholder="Ingredients"
+            required
+          ></textarea>
+          <textarea
+            id="recipe-instructions"
+            placeholder="Instructions"
+            required
+          ></textarea>
+          <button type="submit">Add Recipe</button>
         </form>
       </div>
     </main>

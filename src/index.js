@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   recipeForm.addEventListener("submit", function (e) {
     e.preventDefault();
+    console.log("Form submission initiated");
 
     const newRecipe = {
       name: document.getElementById("recipe-name").value,
@@ -22,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
         .map((item) => item.trim()),
       liked: false,
     };
+    console.log("New recipe created");
+
     // adding new recipe to local array
     allRecipes.push(newRecipe);
 
@@ -37,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       body: JSON.stringify(newRecipe),
     };
+    console.log("POST request");
 
     fetch("http://localhost:3000/recipes", options)
       .then((response) => response.json())
