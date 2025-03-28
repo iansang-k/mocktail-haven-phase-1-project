@@ -139,7 +139,7 @@ function displayRecipes(recipes) {
     likeButton.type = "button";
     likeButton.className = `like-button ${recipe.liked ? "liked" : ""}`;
     likeButton.dataset.recipeId = recipe.id;
-    likeButton.innerHTML = recipe.liked ? `💛 Liked` : `🤍 Like`;
+    likeButton.innerHTML = recipe.liked ? `❤️ Liked` : `🤍 Like`;
     likeButton.addEventListener("click", (e) => {
       e.preventDefault();
       likeRecipe(recipe);
@@ -173,7 +173,7 @@ function likeRecipe(recipe) {
       const likeButtons = document.querySelectorAll(".like-button");
       likeButtons.forEach((button) => {
         if (button.dataset.recipeId === recipe.id.toString()) {
-          button.innerHTML = updatedRecipe.liked ? "💛 Liked" : "🤍 Like";
+          button.innerHTML = updatedRecipe.liked ? "❤️ Liked" : "🤍 Like";
           button.classList.toggle("liked", updatedRecipe.liked);
         }
       });
